@@ -1,4 +1,4 @@
-# Epic git game
+# This is the genius project 
 
 Gitlandia needs your help. 
 Create an **epic hero** and put an end to monster invasion!
