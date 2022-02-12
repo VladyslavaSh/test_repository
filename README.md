@@ -1,5 +1,5 @@
 # This is the genius project 
-# Hello
+# Hello Vlada and Alona
 
 Gitlandia needs your help. 
 Create an **epic hero** and put an end to monster invasion!
