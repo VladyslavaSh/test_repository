@@ -1,5 +1,7 @@
 package ee.taltech;
 
+import ee.taltech.game.Hero;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +21,8 @@ public class ReadyPlayer1 {
         numbers.stream()
                 .filter(n -> n < 10)
                 .forEach(n -> System.out.println(n));
+
+        Hero vladik = new Hero("Vladik");
         // todo chapter 1 creation
         //  create yourself a new hero with an epic name (an instance of class Hero)
         //  your hero is strong, so find a way to define Strength for your hero
