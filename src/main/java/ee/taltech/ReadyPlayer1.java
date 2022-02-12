@@ -1,11 +1,20 @@
 package ee.taltech;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ReadyPlayer1 {
 
     /**
      * this is for player 1 - Strong One
      */
     public static void main(String[] args) {
+        List<Integer> numbers = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            numbers.add(i);
+        }
+
+        System.out.print("Numbers are:" + numbers.toString());
         // todo chapter 1 creation
         //  create yourself a new hero with an epic name (an instance of class Hero)
         //  your hero is strong, so find a way to define Strength for your hero
