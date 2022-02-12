@@ -15,6 +15,10 @@ public class ReadyPlayer1 {
         }
 
         System.out.print("Numbers are:" + numbers.toString());
+
+        numbers.stream()
+                .filter(n -> n < 10)
+                .forEach(n -> System.out.println(n));
         // todo chapter 1 creation
         //  create yourself a new hero with an epic name (an instance of class Hero)
         //  your hero is strong, so find a way to define Strength for your hero
