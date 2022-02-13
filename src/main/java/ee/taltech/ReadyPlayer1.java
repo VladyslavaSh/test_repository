@@ -1,5 +1,7 @@
 package ee.taltech;
 
+import ee.taltech.game.Fight;
+import ee.taltech.game.FightType;
 import ee.taltech.game.Hero;
 import ee.taltech.game.Monster;
 import java.util.ArrayList;
@@ -24,9 +26,11 @@ public class ReadyPlayer1 {
                 .forEach(n -> System.out.println(n));
 
         Hero vladik = new Hero("Vladik");
-
+        vladik.setFight(new Fight(FightType.KICK));
+        vladik.doFight();
         Hero alonik = new Hero("Alonik");
-        
+        alonik.setFight(new Fight((FightType.GUN)));
+        alonik.doFight();
         // todo chapter 1 creation
         //  create yourself a new hero with an epic name (an instance of class Hero)
         //  your hero is strong, so find a way to define Strength for your hero
