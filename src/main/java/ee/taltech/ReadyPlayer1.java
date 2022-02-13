@@ -24,6 +24,9 @@ public class ReadyPlayer1 {
                 .forEach(n -> System.out.println(n));
 
         Hero vladik = new Hero("Vladik");
+
+        Hero alonik = new Hero("Alonik");
+        
         // todo chapter 1 creation
         //  create yourself a new hero with an epic name (an instance of class Hero)
         //  your hero is strong, so find a way to define Strength for your hero
