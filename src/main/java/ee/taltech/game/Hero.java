@@ -20,6 +20,8 @@ public class Hero {
         if (fight == null){
             return;
         }
+        fight.prepareForFight();
+        fight.fight();
 
         System.out.print("I was fighting");
     }
