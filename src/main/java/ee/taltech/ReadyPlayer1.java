@@ -1,9 +1,10 @@
 package ee.taltech;
 
 import ee.taltech.game.Hero;
-
+import ee.taltech.game.Monster;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class ReadyPlayer1 {
 
@@ -45,6 +46,13 @@ public class ReadyPlayer1 {
         //  If hero sum of (strength + intelligence + dexterity + charisma) > sum of monster (strength + intelligence + dexterity + charisma)
         //  then you win, if not you loose
         //  fight them (call the method fight with necessary inputs)
+
+
+        Monster monster1 = new Monster("Monster1",222, 333, 444, 555);
+        Monster monster2 = new Monster("Monster2",222, 333, 444, 555);
+        Monster monster3 = new Monster("Monster3",222, 333, 444, 555);
+
+        List<Monster> monsters = List.of(monster1, monster2, monster3);
 
         // todo team check [pull, commit and push]
         //  continue only when everyone has completed the chapter
