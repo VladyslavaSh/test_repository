@@ -2,11 +2,9 @@ package ee.taltech.game;
 
 public class Hero {
     private String name;
+
     private Fight fight;
 
-    public Hero(String name) {
-        this.name = name;
-    }
 
     public String getName() {
         return name;
